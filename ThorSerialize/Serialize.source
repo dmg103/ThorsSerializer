@@ -2,6 +2,3 @@
 #include "Serialize.h"
 
 using ThorsAnvil::Serialize::ParserInterface;
-
-
-#endif

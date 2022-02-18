@@ -594,4 +594,8 @@ auto tryGetSizeFromSerializeType(PrinterInterface&, T const&, long) -> std::size
     }
 }
 
+#if defined(HEADER_ONLY) && HEADER_ONLY == 1
+#include "ThorsSerializerUtil.source"
+#endif
+
 #endif
